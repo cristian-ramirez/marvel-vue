@@ -1,0 +1,27 @@
+.padding-container {
+	padding: 20px 0px;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.card-img-overlay {
+	font-size: 3.5rem;
+	color: darkcyan;
+	text-shadow: 0px 0px 5px floralwhite;
+}
+
+.card-img {
+	width: 100%;
+}
+
+.navbar-brand {
+	margin: 0 2rem;
+}
+
+.nav.navbar-nav {
+	.nav-link.router-link-active {
+		color: #FFFFFF;
+	}
+}
