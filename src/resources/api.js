@@ -1,9 +1,8 @@
 import axios from 'axios';
-
 class api {
 	constructor() {
 		this.apiCall = axios.create({
-			baseURL: 'https://marvel-server-api.herokuapp.com/api',
+			baseURL: API_URL, //eslint-disable-line
 		});
 	}
 
